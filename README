@@ -1,0 +1,38 @@
+# API CRUD de Estudiantes (Express)
+
+Proyecto de práctica que implementa un **CRUD** (GET, POST, PUT, DELETE) con **Express**.  
+Incluye evidencias en `/docs` para verificar la rúbrica.
+
+---
+
+## ✅ Criterios de calificación cubiertos
+
+1) **Instalación y configuración (1 punto)**
+- Node.js instalado (LTS)  
+- Proyecto creado con `npm init -y`  
+- Express instalado con `npm install express`  
+- Servidor configurado en `index.js` escuchando en puerto **3000**  
+- **Evidencias**:
+  - `docs/00-node-version.png` → `node -v` y `npm -v`
+  - `docs/01-servidor-corriendo.png` → terminal mostrando `Servidor escuchando en http://localhost:3000`
+
+2) **Implementación de rutas CRUD (1 punto)**
+- Endpoints:  
+  - `GET /estudiantes` → listar  
+  - `POST /estudiantes` → crear  
+  - `PUT /estudiantes/:id` → actualizar  
+  - `DELETE /estudiantes/:id` → eliminar  
+- **Evidencias**:
+  - `docs/02-get-estudiantes.png`
+  - `docs/03-post-estudiante.png`
+  - `docs/04-put-estudiante.png`
+  - `docs/05-delete-estudiante.png`
+
+---
+
+## 🛠️ Instalación
+
+```bash
+git clone https://github.com/TU_USUARIO/api-estudiantes.git
+cd api-estudiantes
+npm install
