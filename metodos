@@ -1,0 +1,46 @@
+const express = require('express');
+const app = express();
+const PORT = 3000;
+
+app.use(express.json());
+
+let estudiantes = [
+  { id: 1, nombre: 'Ana Pérez', carrera: 'Sistemas' },
+  { id: 2, nombre: 'Luis García', carrera: 'Electrónica' }
+];
+
+app.get('/estudiantes', (req, res) => {
+  res.json(estudiantes);
+});
+
+app.post('/estudiantes', (req, res) => {
+  const { nombre, carrera } = req.body;
+  if (!nombre || !carrera) return res.status(400).json({ error: 'nombre y carrera son requeridos' });
+  const id = estudiantes.length ? estudiantes[estudiantes.length - 1].id + 1 : 1;
+  const nuevo = { id, nombre, carrera };
+  estudiantes.push(nuevo);
+  res.status(201).json(nuevo);
+});
+
+app.put('/estudiantes/:id', (req, res) => {
+  const id = Number(req.params.id);
+  const e = estudiantes.find(x => x.id === id);
+  if (!e) return res.status(404).json({ error: 'No encontrado' });
+  e.nombre = req.body.nombre ?? e.nombre;
+  e.carrera = req.body.carrera ?? e.carrera;
+  res.json(e);
+});
+
+app.delete('/estudiantes/:id', (req, res) => {
+  const id = Number(req.params.id);
+  estudiantes = estudiantes.filter(x => x.id !== id);
+  res.status(204).send();
+});
+
+app.get('/', (req, res) => {
+  res.send('API de Estudiantes funcionando 🚀');
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
