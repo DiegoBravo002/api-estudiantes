@@ -1,0 +1,15 @@
+com\factura\sistema\Entidades\DetFactura.class
+com\factura\sistema\Repositorios\ClienteRespositorio.class
+com\factura\sistema\Repositorios\FacturaRepositorio.class
+com\factura\sistema\Servcios\FacturaServicio.class
+com\factura\sistema\Controladores\ProductoControlador.class
+com\factura\sistema\Controladores\FacturaControlador.class
+com\factura\sistema\Servcios\ClienteServicio.class
+com\factura\sistema\Servcios\ProductoServicio.class
+com\factura\sistema\Entidades\Producto.class
+com\factura\sistema\SistemaApplication.class
+com\factura\sistema\Repositorios\DetFacturaRepositorio.class
+com\factura\sistema\Entidades\Cliente.class
+com\factura\sistema\Repositorios\ProductoRespositorio.class
+com\factura\sistema\Controladores\ClienteControlador.class
+com\factura\sistema\Entidades\Factura.class

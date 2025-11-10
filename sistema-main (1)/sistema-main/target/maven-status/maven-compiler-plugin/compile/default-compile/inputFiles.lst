@@ -1,0 +1,15 @@
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Controladores\ClienteControlador.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Controladores\FacturaControlador.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Controladores\ProductoControlador.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Entidades\Cliente.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Entidades\DetFactura.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Entidades\Factura.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Entidades\Producto.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Repositorios\ClienteRespositorio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Repositorios\DetFacturaRepositorio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Repositorios\FacturaRepositorio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Repositorios\ProductoRespositorio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Servcios\ClienteServicio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Servcios\FacturaServicio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\Servcios\ProductoServicio.java
+C:\Users\diego\Downloads\sistema-main (1)\sistema-main\src\main\java\com\factura\sistema\SistemaApplication.java
